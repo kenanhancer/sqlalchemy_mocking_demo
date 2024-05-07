@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "*"
+aws-psycopg2 = "*"
+psycopg2 = "*"
+
+[dev-packages]
+pytest-mock = "*"
+pytest = "*"
+pytest-postgresql = "*"
+alchemy-mock = "*"
+
+[requires]
+python_version = "3.12"
